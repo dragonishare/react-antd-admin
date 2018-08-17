@@ -33,7 +33,7 @@ yarn install
 yarn start
 
 # build
-yarn build
+yarn run build
 ```
 
 ### 浏览器支持

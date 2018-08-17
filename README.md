@@ -399,3 +399,27 @@ yarn remove packagenameC
 展示除了"node_modules"文件夹外，其他文件夹三层级内容，然后导出到 README.md
 
 ⚠️ 导出到 README.md 的时候会清空原来的内容
+
+## 文件夹命名解释
+
+- index.js 主入口文件，与 Router 和 redux 的结合也是在此文件
+- Routes.js 路由相关配置
+- Menu.js 菜单配置
+
+App.js 应用程序入口文件，其实没太大用途，也可以不用
+
+- Admin 后台管理应用的主体框架， login 之后的主框架
+- Home，login 之后的默认页
+  Index 不需要，可以用来代替 Admin 或者 Home
+
+User 系统用户
+Persimmion 权限管理
+
+Member 会员
+Customer 客户
+
+Sidebar 侧边栏
+NotFound 404
+Header
+Footer
+Breadcrumb 面包屑

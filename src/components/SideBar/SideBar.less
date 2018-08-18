@@ -1,0 +1,32 @@
+.sidebar {
+  &.ant-layout-sider {
+    flex: 0 0 200px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    .logo-img {
+      animation: App-logo-spin infinite 20s linear;
+      height: 40px;
+    }
+    .title {
+      margin-right: 10px;
+      font-size: 20px;
+      color: #fff;
+    }
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

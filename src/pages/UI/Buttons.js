@@ -22,7 +22,7 @@ export default class Buttons extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="ui-buttons">
         <Card title="基础按钮" className="card-wrap">
           <Button type="primary">Primary</Button>
           <Button>Default</Button>

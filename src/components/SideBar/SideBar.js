@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
+import { NavLink } from 'react-router-dom';
 import MenuConfig from '../../common/Menu';
 import Logo from '../../assets/logo.svg';
 import './SideBar.less';
@@ -38,7 +39,9 @@ export default class SideBar extends React.Component {
 
       return (
         <Menu.Item key={item.key}>
-          <span className="nav-text">{item.title}</span>
+          <NavLink to={item.key}>
+            <span className="nav-text">{item.title}</span>
+          </NavLink>
         </Menu.Item>
       );
     });

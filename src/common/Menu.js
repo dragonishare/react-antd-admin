@@ -8,11 +8,11 @@ const menuList = [
     key: '/admin/ui',
     children: [
       {
-        title: '按钮',
+        title: 'Button 按钮',
         key: '/admin/ui/buttons'
       },
       {
-        title: '弹框',
+        title: 'Modal 对话框',
         key: '/admin/ui/modals'
       },
       {
@@ -20,11 +20,11 @@ const menuList = [
         key: '/admin/ui/loadings'
       },
       {
-        title: '通知提醒',
+        title: 'Notification 通知提醒框',
         key: '/admin/ui/notification'
       },
       {
-        title: '全局Message',
+        title: 'Message 全局提示',
         key: '/admin/ui/messages'
       },
       {

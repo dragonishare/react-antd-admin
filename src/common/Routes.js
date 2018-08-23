@@ -10,6 +10,7 @@ import Notice from '../pages/UI/Notice';
 import Messages from '../pages/UI/Messages';
 import FormLogin from '../pages/Form/Login';
 import FormRegister from '../pages/Form/Register';
+import BasicTable from '../pages/Table/BasicTable';
 import NotFound from '../components/NotFound/NotFound';
 
 export default class Routes extends React.Component {
@@ -30,6 +31,7 @@ export default class Routes extends React.Component {
                   <Route path="/admin/ui/messages" component={Messages} />
                   <Route path="/admin/form/login" component={FormLogin} />
                   <Route path="/admin/form/register" component={FormRegister} />
+                  <Route path="/admin/table/basic" component={BasicTable} />
                   <Route component={NotFound} />
                 </Switch>
               </Admin>

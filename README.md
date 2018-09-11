@@ -219,7 +219,7 @@ indent_size = 2
 trim_trailing_whitespace = false
 ```
 
-为了是`.editorconfig`配置文件生效，需要编辑器安装对应的插件；这里是通过添加`.prettier`文件，让 prettier 读取`.editorconfig`里边的配置
+为了使`.editorconfig`配置文件生效，需要编辑器安装对应的插件；这里是通过添加`.prettier`文件，让 prettier 读取`.editorconfig`里边的配置
 
 ### 添加 `less` 配置
 
